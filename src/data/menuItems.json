@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Kebab Clasic Pui",
+    "price": 85,
+    "weight": "400gr",
+    "emoji": "🫔",
+    "spicy": false
+  },
+  {
+    "id": 2,
+    "name": "Kebab Clasic Beef",
+    "price": 95,
+    "weight": "450gr",
+    "emoji": "🌯",
+    "spicy": false
+  },
+  {
+    "id": 3,
+    "name": "Kebab Hot Chilli",
+    "price": 90,
+    "weight": "400gr",
+    "emoji": "🫔",
+    "spicy": true
+  },
+  {
+    "id": 4,
+    "name": "Kebab Shawarma Mix",
+    "price": 100,
+    "weight": "500gr",
+    "emoji": "🌯",
+    "spicy": false
+  },
+  {
+    "id": 5,
+    "name": "Cartofi Pai",
+    "price": 35,
+    "weight": "200gr",
+    "emoji": "🍟",
+    "spicy": false
+  },
+  {
+    "id": 6,
+    "name": "Cola 0.5L",
+    "price": 20,
+    "weight": "500ml",
+    "emoji": "🥤",
+    "spicy": false
+  }
+]

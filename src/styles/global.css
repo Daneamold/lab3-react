@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+:root {
+  --red: #e84118;
+  --dark: #1a1a1a;
+  --border: #2e2e2e;
+  --gray: #888;
+}

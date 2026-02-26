@@ -1,0 +1,27 @@
+.page {
+  padding: 40px 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 36px;
+  margin-bottom: 24px;
+  letter-spacing: 1px;
+}
+
+.title span {
+  color: var(--red);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .page { padding: 20px 16px; }
+  .grid { grid-template-columns: 1fr; }
+}

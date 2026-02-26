@@ -1,0 +1,5 @@
+[
+  { "path": "/",       "label": "Acasă"   },
+  { "path": "/menu",   "label": "Meniu"   },
+  { "path": "/contact","label": "Contact" }
+]

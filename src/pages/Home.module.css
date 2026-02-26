@@ -1,0 +1,64 @@
+.page {
+  padding: 40px 32px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero {
+  background: linear-gradient(135deg, #1a0a00, #2a0a00);
+  border: 1px solid #2e2e2e;
+  border-radius: 20px;
+  padding: 48px 40px;
+  margin-bottom: 48px;
+  text-align: center;
+}
+
+.promo {
+  display: inline-block;
+  background: #e84118;
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.heroTitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 64px;
+  letter-spacing: 2px;
+  line-height: 1;
+  margin-bottom: 12px;
+}
+
+.heroTitle span {
+  color: var(--red);
+}
+
+.heroSub {
+  font-size: 16px;
+  color: #888;
+  margin-bottom: 28px;
+}
+
+.sectionTitle {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 28px;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .page { padding: 20px 16px; }
+  .heroTitle { font-size: 44px; }
+  .grid { grid-template-columns: 1fr; }
+}
